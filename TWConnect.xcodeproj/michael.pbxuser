@@ -1,0 +1,92 @@
+// !$*UTF8*$!
+{
+	0867D690FE84028FC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Distribution;
+		activeTarget = D2AAC07D0554694100DB518D /* TWConnect */;
+		addToTargets = (
+			D2AAC07D0554694100DB518D /* TWConnect */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 4C21168611FA4E0B00D8BDF2 /* Code sense */;
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 303527138;
+			PBXWorkspaceStateSaveDate = 303527138;
+		};
+		perUserProjectItems = {
+			4CA4C7F9121774EB008EC482 /* PBXTextBookmark */ = 4CA4C7F9121774EB008EC482 /* PBXTextBookmark */;
+			4CEDF65D1216656F00DB3123 /* PBXTextBookmark */ = 4CEDF65D1216656F00DB3123 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 4C21168511FA4E0B00D8BDF2 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	4C21168511FA4E0B00D8BDF2 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	4C21168611FA4E0B00D8BDF2 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	4C21169511FA4E7300D8BDF2 /* TwitterLoginButton.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1104, 812}}";
+			sepNavSelRange = "{683, 0}";
+			sepNavVisRange = "{0, 1623}";
+			sepNavWindowFrame = "{{19, 0}, {1079, 778}}";
+		};
+	};
+	4C21169611FA4E7300D8BDF2 /* TwitterLoginViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1060, 1400}}";
+			sepNavSelRange = "{2303, 0}";
+			sepNavVisRange = "{1353, 970}";
+		};
+	};
+	4C21169811FA4E7300D8BDF2 /* TWSession.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1468, 4368}}";
+			sepNavSelRange = "{8708, 0}";
+			sepNavVisRange = "{7958, 1889}";
+			sepNavWindowFrame = "{{424, 0}, {839, 778}}";
+		};
+	};
+	4C21178211FA567E00D8BDF2 /* TWSession.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {780, 1288}}";
+			sepNavSelRange = "{745, 21}";
+			sepNavVisRange = "{142, 1237}";
+			sepNavWindowFrame = "{{423, 0}, {839, 778}}";
+		};
+	};
+	4CA4C7F9121774EB008EC482 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4C21169511FA4E7300D8BDF2 /* TwitterLoginButton.m */;
+		name = "TwitterLoginButton.m: 17";
+		rLen = 0;
+		rLoc = 683;
+		rType = 0;
+		vrLen = 1623;
+		vrLoc = 0;
+	};
+	4CEDF65D1216656F00DB3123 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4C21169511FA4E7300D8BDF2 /* TwitterLoginButton.m */;
+		name = "TwitterLoginButton.m: 17";
+		rLen = 0;
+		rLoc = 683;
+		rType = 0;
+		vrLen = 1623;
+		vrLoc = 0;
+	};
+	D2AAC07D0554694100DB518D /* TWConnect */ = {
+		activeExec = 0;
+	};
+}

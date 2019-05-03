@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C21169911FA4E7300D8BDF2 /* TwitterLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C21169511FA4E7300D8BDF2 /* TwitterLoginButton.m */; };
+		4C21169A11FA4E7300D8BDF2 /* TwitterLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C21169611FA4E7300D8BDF2 /* TwitterLoginViewController.m */; };
+		4C21169B11FA4E7300D8BDF2 /* TwitterOAuthLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C21169711FA4E7300D8BDF2 /* TwitterOAuthLogin.m */; };
+		4C21169C11FA4E7300D8BDF2 /* TWSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C21169811FA4E7300D8BDF2 /* TWSession.m */; };
+		4C21178311FA567E00D8BDF2 /* TwitterLoginButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C21177F11FA567E00D8BDF2 /* TwitterLoginButton.h */; };
+		4C21178411FA567E00D8BDF2 /* TwitterLoginViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C21178011FA567E00D8BDF2 /* TwitterLoginViewController.h */; };
+		4C21178511FA567E00D8BDF2 /* TwitterOAuthLogin.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C21178111FA567E00D8BDF2 /* TwitterOAuthLogin.h */; };
+		4C21178611FA567E00D8BDF2 /* TWSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C21178211FA567E00D8BDF2 /* TWSession.h */; };
+		4C92384D11FF602000FBECE2 /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C92384811FF602000FBECE2 /* NSData+Base64.h */; };
+		4C92384E11FF602000FBECE2 /* NSData+ResponseDecoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C92384911FF602000FBECE2 /* NSData+ResponseDecoding.h */; };
+		4C92384F11FF602000FBECE2 /* NSString+ResponseDecoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C92384A11FF602000FBECE2 /* NSString+ResponseDecoding.h */; };
+		4C92385011FF602000FBECE2 /* RCHTTPBody.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C92384B11FF602000FBECE2 /* RCHTTPBody.h */; };
+		4C92385111FF602000FBECE2 /* RCWebDialogViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C92384C11FF602000FBECE2 /* RCWebDialogViewController.h */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C2116D411FA50A900D8BDF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C2116D011FA50A900D8BDF2 /* OAuthConsumerLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = OAuthConsumerLib;
+		};
+		4C2116EF11FA516200D8BDF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C2116EB11FA516200D8BDF2 /* RCEmbeddedWebClientLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = RCEmbeddedWebClientLib;
+		};
+		4C92382C11FF5F1400FBECE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C2116EB11FA516200D8BDF2 /* RCEmbeddedWebClientLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = RCEmbeddedWebClientLib;
+		};
+		4C92383611FF5F6100FBECE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C2116D011FA50A900D8BDF2 /* OAuthConsumerLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = OAuthConsumerLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C21169511FA4E7300D8BDF2 /* TwitterLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TwitterLoginButton.m; path = src/TwitterLoginButton.m; sourceTree = "<group>"; };
+		4C21169611FA4E7300D8BDF2 /* TwitterLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TwitterLoginViewController.m; path = src/TwitterLoginViewController.m; sourceTree = "<group>"; };
+		4C21169711FA4E7300D8BDF2 /* TwitterOAuthLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TwitterOAuthLogin.m; path = src/TwitterOAuthLogin.m; sourceTree = "<group>"; };
+		4C21169811FA4E7300D8BDF2 /* TWSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TWSession.m; path = src/TWSession.m; sourceTree = "<group>"; };
+		4C2116D011FA50A900D8BDF2 /* OAuthConsumerLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OAuthConsumerLib.xcodeproj; path = "../OAuthConsumer-RC/OAuthConsumerLib.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		4C2116EB11FA516200D8BDF2 /* RCEmbeddedWebClientLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCEmbeddedWebClientLib.xcodeproj; path = ../RCEmbeddedWebClientLib/RCEmbeddedWebClientLib.xcodeproj; sourceTree = SOURCE_ROOT; };
+		4C21177F11FA567E00D8BDF2 /* TwitterLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterLoginButton.h; sourceTree = "<group>"; };
+		4C21178011FA567E00D8BDF2 /* TwitterLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterLoginViewController.h; sourceTree = "<group>"; };
+		4C21178111FA567E00D8BDF2 /* TwitterOAuthLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterOAuthLogin.h; sourceTree = "<group>"; };
+		4C21178211FA567E00D8BDF2 /* TWSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWSession.h; sourceTree = "<group>"; };
+		4C92384811FF602000FBECE2 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+Base64.h"; path = "../RCEmbeddedWebClientLib/NSData+Base64.h"; sourceTree = SOURCE_ROOT; };
+		4C92384911FF602000FBECE2 /* NSData+ResponseDecoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+ResponseDecoding.h"; path = "../RCEmbeddedWebClientLib/NSData+ResponseDecoding.h"; sourceTree = SOURCE_ROOT; };
+		4C92384A11FF602000FBECE2 /* NSString+ResponseDecoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+ResponseDecoding.h"; path = "../RCEmbeddedWebClientLib/NSString+ResponseDecoding.h"; sourceTree = SOURCE_ROOT; };
+		4C92384B11FF602000FBECE2 /* RCHTTPBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCHTTPBody.h; path = ../RCEmbeddedWebClientLib/RCHTTPBody.h; sourceTree = SOURCE_ROOT; };
+		4C92384C11FF602000FBECE2 /* RCWebDialogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCWebDialogViewController.h; path = ../RCEmbeddedWebClientLib/RCWebDialogViewController.h; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libTWConnect.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTWConnect.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libTWConnect.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* TWConnect */ = {
+			isa = PBXGroup;
+			children = (
+				4C2116EB11FA516200D8BDF2 /* RCEmbeddedWebClientLib.xcodeproj */,
+				4C2116D011FA50A900D8BDF2 /* OAuthConsumerLib.xcodeproj */,
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = TWConnect;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4C92384811FF602000FBECE2 /* NSData+Base64.h */,
+				4C92384911FF602000FBECE2 /* NSData+ResponseDecoding.h */,
+				4C92384A11FF602000FBECE2 /* NSString+ResponseDecoding.h */,
+				4C92384B11FF602000FBECE2 /* RCHTTPBody.h */,
+				4C92384C11FF602000FBECE2 /* RCWebDialogViewController.h */,
+				4C21177F11FA567E00D8BDF2 /* TwitterLoginButton.h */,
+				4C21178011FA567E00D8BDF2 /* TwitterLoginViewController.h */,
+				4C21178111FA567E00D8BDF2 /* TwitterOAuthLogin.h */,
+				4C21178211FA567E00D8BDF2 /* TWSession.h */,
+				4C21169511FA4E7300D8BDF2 /* TwitterLoginButton.m */,
+				4C21169611FA4E7300D8BDF2 /* TwitterLoginViewController.m */,
+				4C21169711FA4E7300D8BDF2 /* TwitterOAuthLogin.m */,
+				4C21169811FA4E7300D8BDF2 /* TWSession.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		4C2116D111FA50A900D8BDF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C2116D511FA50A900D8BDF2 /* libOAuthConsumerLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C2116EC11FA516200D8BDF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C2116F011FA516200D8BDF2 /* libRCEmbeddedWebClientLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C21178311FA567E00D8BDF2 /* TwitterLoginButton.h in Headers */,
+				4C21178411FA567E00D8BDF2 /* TwitterLoginViewController.h in Headers */,
+				4C21178511FA567E00D8BDF2 /* TwitterOAuthLogin.h in Headers */,
+				4C21178611FA567E00D8BDF2 /* TWSession.h in Headers */,
+				4C92384D11FF602000FBECE2 /* NSData+Base64.h in Headers */,
+				4C92384E11FF602000FBECE2 /* NSData+ResponseDecoding.h in Headers */,
+				4C92384F11FF602000FBECE2 /* NSString+ResponseDecoding.h in Headers */,
+				4C92385011FF602000FBECE2 /* RCHTTPBody.h in Headers */,
+				4C92385111FF602000FBECE2 /* RCWebDialogViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* TWConnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "TWConnect" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C92382D11FF5F1400FBECE2 /* PBXTargetDependency */,
+				4C92383711FF5F6100FBECE2 /* PBXTargetDependency */,
+			);
+			name = TWConnect;
+			productName = TWConnect;
+			productReference = D2AAC07E0554694100DB518D /* libTWConnect.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "TWConnect" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* TWConnect */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4C2116D111FA50A900D8BDF2 /* Products */;
+					ProjectRef = 4C2116D011FA50A900D8BDF2 /* OAuthConsumerLib.xcodeproj */;
+				},
+				{
+					ProductGroup = 4C2116EC11FA516200D8BDF2 /* Products */;
+					ProjectRef = 4C2116EB11FA516200D8BDF2 /* RCEmbeddedWebClientLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* TWConnect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4C2116D511FA50A900D8BDF2 /* libOAuthConsumerLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libOAuthConsumerLib.a;
+			remoteRef = 4C2116D411FA50A900D8BDF2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4C2116F011FA516200D8BDF2 /* libRCEmbeddedWebClientLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCEmbeddedWebClientLib.a;
+			remoteRef = 4C2116EF11FA516200D8BDF2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C21169911FA4E7300D8BDF2 /* TwitterLoginButton.m in Sources */,
+				4C21169A11FA4E7300D8BDF2 /* TwitterLoginViewController.m in Sources */,
+				4C21169B11FA4E7300D8BDF2 /* TwitterOAuthLogin.m in Sources */,
+				4C21169C11FA4E7300D8BDF2 /* TWSession.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C92382D11FF5F1400FBECE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RCEmbeddedWebClientLib;
+			targetProxy = 4C92382C11FF5F1400FBECE2 /* PBXContainerItemProxy */;
+		};
+		4C92383711FF5F6100FBECE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OAuthConsumerLib;
+			targetProxy = 4C92383611FF5F6100FBECE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/TWConnect.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TWConnect_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = TWConnect;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/TWConnect.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TWConnect_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = TWConnect;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "../**";
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+				SYMROOT = ../build;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "../**";
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+				SYMROOT = ../build;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "TWConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "TWConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
